@@ -1,0 +1,37 @@
+@import "compass";
+@import "normalize.scss";
+
+$width: 924px;
+$height: 600px;
+$fontSize: 40px;
+$spacing: 60px;
+
+body {
+    background: black;
+    text-align: center;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: (-$height/2) 0 0 (-$width/2);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font: $fontSize monospace;
+    white-space: pre;
+    letter-spacing: $spacing;
+    line-height: $spacing;
+    background: black;
+    color: #000;
+    text-shadow: -1px -1px 1px #414141,
+                 1px 1px 1px #414141;
+
+    .meta, .active {
+        color: #56F1E5;
+        text-shadow: #fff -1px -1px 3px, #fff 1px 1px 3px;
+    }
+}

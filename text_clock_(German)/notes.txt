@@ -1,0 +1,59 @@
+fünf        m-5
+zehn        m-10
+zwanzig     m-20
+
+dreiviertel m-45
+viertel     m-15
+
+(vor        m-vor
+nach)       m-nach
+
+halb        m-30
+
+fünf        5
+eins        1
+zwei        2
+drei        3
+vier        4
+sechs       6
+acht        8
+sieben      7
+zwölf       12
+zehn        10
+neun        9
+
+
+---
+
+viertel / dreiviertel /
+fünf / zehn / zwanzig
+
+vor / nach
+
+(halb)
+
+1-12
+
+11:57:30 - 00:02:29   12
+00:02:30 - 00:07:29   m-5 m-nach 12
+00:07:30 - 00:12:29   m-10 m-nach 12
+00:12:30 - 00:17:29   m-15 m-nach 12
+00:17:30 - 00:22:29   m-20 m-nach 12
+
+00:22:30 - 00:27:29   m-5 m-vor m-30 1
+00:27:30 - 00:32:29   m-30 1
+00:32:30 - 00:37:29   m-5 m-nach m-30 1
+
+00:37:30 - 00:42:29   m-20 m-vor 1
+00:42:30 - 00:47:29   m-15 m-vor 1
+00:47:30 - 00:52:29   m-10 m-vor 1
+00:52:30 - 00:57:29   m-5 m-vor 1
+
+00:57:30 - 01:02:29   1
+
+Ausnahmen:
+
+- Es ist ein Uhr
+- Es ist halb eins
+
+37:29
